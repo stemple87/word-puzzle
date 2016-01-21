@@ -6,6 +6,12 @@ describe('vowelReplace', function() {
   it("will replace any vowel with -", function() {
     expect(vowelReplace("u")).to.equal("-");
   });
+  it("will replace any vowel with -", function() {
+    expect(vowelReplace("Once upon a time")).to.equal("-nc- -p-n - t-m-");
+  });
+  it("will replace any vowel with -", function() {
+    expect(vowelReplace("Once upon a time there was a dragon")).to.equal("-nc- -p-n - t-m- th-r- w-s - dr-g-n");
+  });
 });
 
 
