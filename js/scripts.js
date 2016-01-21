@@ -3,11 +3,13 @@
 
 var vowelReplace = function(string) {
   var vowels = ["a", "e", "i", "o", "u"];
-  // var a = "a";
 
-  if (string === "b") {
-    string = "-";
-    return string;
-
+  for (var i = 0; i < vowels.length; i++) {
+    vowels[i]
+    if (string === vowels[i]) {
+      string = "-";
+      return string;
+      
+    }
   }
 }

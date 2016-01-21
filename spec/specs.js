@@ -1,7 +1,10 @@
 
 describe('vowelReplace', function() {
-  it("will replace a vowel with a -", function() {
+  it("will replace vowel a with -", function() {
     expect(vowelReplace("a")).to.equal("-");
+  });
+  it("will replace any vowel with -", function() {
+    expect(vowelReplace("u")).to.equal("-");
   });
 });
 
