@@ -1,5 +1,9 @@
 
-
+describe('vowelReplace', function() {
+  it("will replace a vowel with a -", function() {
+    expect(vowelReplace("a")).to.equal("-");
+  });
+});
 
 
 // describe('getRemainder', function(){
